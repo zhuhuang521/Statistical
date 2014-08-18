@@ -39,6 +39,7 @@ public class MainListActivity extends Activity{
 				intent.setClass(MainListActivity.this, ColumnarActivity.class);
 				break;
 			case 2:
+				intent.setClass(MainListActivity.this, CurveActivity.class);
 				break;
 			case 3:
 				break;
